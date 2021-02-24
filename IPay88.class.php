@@ -51,9 +51,9 @@ class IPay88 {
     array(14, 'RHB', 'MYR'),
   );
 
-  public static $epayment_url = 'https://www.mobile88.com/epayment/entry.asp';
-  public static $requery_url = 'https://www.mobile88.com/epayment/enquiry.asp';
-  public static $referer_url = 'www.mobile88.com'; // without scheme (http/https)
+  public static $epayment_url = 'https://payment.ipay88.com.my/epayment/entry.asp';
+  public static $requery_url = 'https://payment.ipay88.com.my/epayment/enquiry.asp';
+  public static $referer_url = 'www.ipay88.com'; // without scheme (http/https)
 
   private $merchant_key = '';  // Private key, do not share!
 
