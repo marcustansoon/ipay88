@@ -17,6 +17,7 @@ $ipay88->setField('UserContact', '0123456789');
 $ipay88->setField('Remark', 'Some remarks here..');
 $ipay88->setField('Lang', 'utf-8');
 $ipay88->setField('ResponseURL', 'http://yourwebsite.com/ipay88/response');
+$ipay88->setField('BackendURL', 'http://yourwebsite.com/ipay88/backend/response');
 
 $ipay88->generateSignature();
 
