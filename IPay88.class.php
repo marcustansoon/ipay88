@@ -72,6 +72,7 @@ class IPay88 {
     'Lang'         => 'UTF-8',  // (Optional) Encoding type:- ISO-8859-1 (English), UTF-8 (Unicode), GB2312 (Chinese Simplified), GD18030 (Chinese Simplified), BIG5 (Chinese Traditional)
     'Signature'    => '',  // SHA1 signature.
     'ResponseURL'  => '',  // (Optional) Payment response page.
+    'BackendURL'  => '',  // (Optional) Backend Payment response page.
   );
 
   /* Return response from iPay88:
@@ -137,6 +138,7 @@ class IPay88 {
         break;
       case 'MerchantKey':
       case 'ResponseURL':
+      case 'BackendURL':
       case 'TransId':
       case 'AuthCode':
       case 'Status':
